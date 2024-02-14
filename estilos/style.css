@@ -2,8 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
 
-
-
 * {
     margin: 0px;
     padding: 0px;
@@ -30,12 +28,25 @@
 }
 
 #uepg-ref:hover {
-    color: rgb(102, 178, 255);
+    color: rgb(12, 47, 82);
     text-decoration: underline;
-    font-size: 1.05em;
+    font-size: 1.01em;
+}
+
+#redes-sociais {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#redes-sociais img {
+    border-radius: 50%;
+    width: 100px;
+    margin: 3em;
+    box-sizing: border-box;
 }
 
 .waves {
+    display: block;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -73,6 +84,5 @@
     from {
         transform: translateX(-1600px);
         transform: scaleX(2);
-        
     }
 }

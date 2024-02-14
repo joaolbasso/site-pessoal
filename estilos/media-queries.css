@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@media screen and (max-height: 790px) {
+    body {
+        background-color: rgba(0, 0, 0, 0.137);
+    }
+
+    #nome-titulo {
+        padding-top: 0.5em;
+        display: block;
+        text-align: center;
+        font-family: 'MuseoModerno', Verdana, sans-serif;
+        font-size: 3em;
+    }
+
+}
