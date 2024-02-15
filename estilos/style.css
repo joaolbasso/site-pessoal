@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --cor1: #37d7ff86;
+    --cor1: #53ddff86;
     --cor2: #ffffff80;
 }
 
@@ -22,13 +22,13 @@ body {
     display: block;
     text-align: center;
     font-family: 'MuseoModerno', Verdana, sans-serif;
-    font-size: 4em;
+    font-size: 4.4em;
 }
 
 .descricao-titulo {
     text-align: center;
     font-family: 'Dosis', Cambria, 'Times New Roman', serif;
-    font-size: 1.3em;
+    font-size: 1.6em;
 }
 
 #uepg-ref {
