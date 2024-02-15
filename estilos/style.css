@@ -33,9 +33,9 @@
     font-size: 1.01em;
 }
 
-#redes-sociais {
-    display: inline-block;
-    margin-bottom: 20px;
+#redes-sociais {    
+    display: flex;
+    justify-content: center;
 }
 
 #redes-sociais img {
@@ -43,6 +43,12 @@
     width: 100px;
     margin: 3em;
     box-sizing: border-box;
+}
+
+#redes-sociais img:hover {
+    border: 1px solid rgba(0, 0, 0, 0.411);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.322);
+    transform: translate(-2px, -2px);
 }
 
 .waves {
@@ -72,7 +78,7 @@
 @keyframes moverForma2 {
     from {
         transform: translateX(-1800px);
-        transform: scaleX(2);
+        transform: scaleX(2);  
     }
 }
 
