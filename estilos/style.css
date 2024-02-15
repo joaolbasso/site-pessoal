@@ -2,10 +2,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+    --cor1: #37d7ff86;
+    --cor2: #ffffff80;
+}
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, var(--cor1), var(--cor2));
 }
 
 #nome-titulo {
