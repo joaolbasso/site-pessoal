@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (max-height: 780px) {
+@media screen and (max-height: 780px) and (max-width: 885px) {
     #nome-titulo {
         padding-top: 0.5em;
         display: block;
@@ -19,8 +19,7 @@
 
 }
 
-@media screen and (max-width: 585px) {
-
+@media screen and (max-width: 450px) {
     #nome-titulo {
         padding-top: 0.25em;
         font-size: 3em;
@@ -42,10 +41,4 @@
         margin: 1.5em;
     }
 
-    @keyframes moverForma3 {
-        from {
-            transform: translateX(-1600px);
-            transform: scaleX(2);
-        }
-    }
 }
