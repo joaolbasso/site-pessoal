@@ -20,6 +20,7 @@
 }
 
 @media screen and (max-width: 585px) {
+
     #nome-titulo {
         padding-top: 0.25em;
         font-size: 3em;

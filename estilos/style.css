@@ -14,6 +14,7 @@
 }
 
 body {
+    overflow: hidden;
     background: linear-gradient(to right, var(--cor1), var(--cor2));
 }
 
