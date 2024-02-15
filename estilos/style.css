@@ -27,6 +27,10 @@
     color: black;
 }
 
+#uepg-ref::after {
+    content: '\1F517';
+}
+
 #uepg-ref:hover {
     color: rgb(12, 47, 82);
     text-decoration: underline;
@@ -36,11 +40,12 @@
 #redes-sociais {    
     display: flex;
     justify-content: center;
+    margin-top: 10px;
 }
 
 #redes-sociais img {
     border-radius: 50%;
-    width: 100px;
+    max-width: 100px;
     margin: 3em;
     box-sizing: border-box;
 }
