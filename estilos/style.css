@@ -18,15 +18,39 @@ body {
     background: linear-gradient(to right, var(--cor1), var(--cor2));
 }
 
+#seleciona-linguagem {
+    display: flex;
+    list-style-type: none;
+    margin: 0.5rem;
+    & li {
+        padding: 0 1rem 0 0;
+    & input {
+        display: none;
+    }
+    & label > img {
+        border-radius: 50%;
+        width: 2em;
+        padding: 0.25rem;
+        cursor: pointer;
+        &:hover {
+            transform: translate(-1px, -1px);
+        }
+    }  
+
+    & input[type="radio"]:checked + label > img {
+        border: 0.3px solid rgb(0, 17, 255);
+    }  
+    }
+}
+
 #nome-titulo {
-    padding-top: 1em;
     display: block;
     text-align: center;
     font-family: 'MuseoModerno', Verdana, sans-serif;
     font-size: 4.4em;
 }
 
-.descricao-titulo {
+.descricao-titulo > p {
     text-align: center;
     font-family: 'Dosis', Cambria, 'Times New Roman', serif;
     font-size: 1.6em;

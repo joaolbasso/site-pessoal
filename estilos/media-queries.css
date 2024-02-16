@@ -1,15 +1,14 @@
 @charset "UTF-8";
 
-@media screen and (max-height: 780px) and (max-width: 885px) {
+@media screen and (max-height: 780px) {
     #nome-titulo {
-        padding-top: 0.5em;
         display: block;
         text-align: center;
         font-family: 'MuseoModerno', Verdana, sans-serif;
         font-size: 3em;
     }
 
-    .descricao-titulo {
+    .descricao-titulo > p {
         font-size: 1.5em;
     }
 

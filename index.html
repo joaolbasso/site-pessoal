@@ -7,12 +7,29 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-queries.css">
     <link rel="shortcut icon" href="imagens/icone.png" type="image/x-icon">
+    <script src="script.js" defer></script>
 </head>
 <body>
+    <div> 
+        <ul id="seleciona-linguagem">
+            <li><input type="radio" name="opcao-linguagem" id="0-linguagem" onclick="mudarTexto()"><label for="0-linguagem" checked><img src="imagens/flags/br.svg" alt="Brazil"></label></li>
+            <li><input type="radio" name="opcao-linguagem" id="1-linguagem" onclick="mudarTexto()"><label for="1-linguagem"><img src="imagens/flags/es.svg" alt="Spain"></label></li>
+            <li><input type="radio" name="opcao-linguagem" id="2-linguagem" onclick="mudarTexto()"><label for="2-linguagem"><img src="imagens/flags/us.svg" alt="United States"></label></li>
+        </ul>
+    </div>
+
     <header>
     <h1 id="nome-titulo">João Leonardo Basso</h1>
-    <p class="descricao-titulo">Acadêmico de Engenharia de Software na <br>
-        <a id="uepg-ref" href="https://www.uepg.br/" target="_blank" rel="external">Universidade Estadual de Ponta Grossa (UEPG)</a></p>
+    <div class="descricao-titulo">
+        <p id="textoAcademico">Acadêmico de Engenharia de Software na</p>
+        <p><a id="uepg-ref" href="https://www.uepg.br/" target="_blank" rel="external">Universidade Estadual de Ponta Grossa (UEPG)</a></p>
+        <!--
+            <p>Acadêmico de Engenharia de Software na <br>
+            <a id="uepg-ref" href="https://www.uepg.br/" target="_blank" rel="external">Universidade Estadual de Ponta Grossa (UEPG)</a>
+            </p>
+        -->
+            
+    </div>
     </header>
     
         <div id="redes-sociais">
