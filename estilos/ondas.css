@@ -1,0 +1,41 @@
+.waves {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow-x: hidden;
+}
+
+.wave-1 {   
+    animation: moverForma1 3s ease-in-out infinite alternate;
+}
+
+@keyframes moverForma1 {
+    from {
+        transform: translateX(-2000px);
+        transform: scaleX(2);
+    }
+}
+
+.wave-2 {
+    animation: moverForma2 3s 1.2s ease-in-out infinite alternate;
+}
+
+@keyframes moverForma2 {
+    from {
+        transform: translateX(-1800px);
+        transform: scaleX(2);  
+    }
+}
+
+.wave-3 {
+    animation: moverForma3 3s 0.8s ease-in-out infinite alternate;
+}
+
+@keyframes moverForma3 {
+    from {
+        transform: translateX(-1600px);
+        transform: scaleX(2);
+    }
+}

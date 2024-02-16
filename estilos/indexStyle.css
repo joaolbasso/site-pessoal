@@ -1,22 +1,4 @@
-@charset "UTF-8";
-
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
-
-:root {
-    --cor1: #53ddff86;
-    --cor2: #ffffff80;
-}
-
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
-body {
-    overflow: hidden;
-    background: linear-gradient(to right, var(--cor1), var(--cor2));
-}
 
 #seleciona-linguagem {
     display: flex;
@@ -88,46 +70,4 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.411);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.322);
     transform: translate(-2px, -2px);
-}
-
-.waves {
-    display: block;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    overflow-x: hidden;
-}
-
-.wave-1 {   
-    animation: moverForma1 3s ease-in-out infinite alternate;
-}
-
-@keyframes moverForma1 {
-    from {
-        transform: translateX(-2000px);
-        transform: scaleX(2);
-    }
-}
-
-.wave-2 {
-    animation: moverForma2 3s 1.2s ease-in-out infinite alternate;
-}
-
-@keyframes moverForma2 {
-    from {
-        transform: translateX(-1800px);
-        transform: scaleX(2);  
-    }
-}
-
-.wave-3 {
-    animation: moverForma3 3s 0.8s ease-in-out infinite alternate;
-}
-
-@keyframes moverForma3 {
-    from {
-        transform: translateX(-1600px);
-        transform: scaleX(2);
-    }
 }

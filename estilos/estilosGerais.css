@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #53ddff86;
+    --cor2: #ffffff80;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, var(--cor1), var(--cor2));
+}
