@@ -29,13 +29,14 @@
     display: block;
     text-align: center;
     font-family: 'MuseoModerno', Verdana, sans-serif;
-    font-size: 4.4em;
+    font-size: 2.2em;
+    margin-top: 1em;
 }
 
 .descricao-titulo > p {
     text-align: center;
     font-family: 'Dosis', Cambria, 'Times New Roman', serif;
-    font-size: 1.6em;
+    font-size: 1.2em;
 }
 
 #uepg-ref {
@@ -54,16 +55,16 @@
 }
 
 #redes-sociais {    
-    display: flex;
+    display: block;
     justify-content: center;
-    margin-top: 10px;
+    align-items: center;
+    padding: 4em;
 }
 
 #redes-sociais img {
     border-radius: 50%;
-    max-width: 100px;
-    margin: 3em;
-    box-sizing: border-box;
+    max-width: 6em;
+    margin: 1em;
 }
 
 #redes-sociais img:hover {

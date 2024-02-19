@@ -5,6 +5,7 @@
 
 #foto-joao {
     display: flex;
+    margin-bottom: 5px;
     margin: auto;
     width: 40vh;
     height: 40vh;
@@ -21,8 +22,8 @@ article > h1 {
 }
 
 article {
-    padding: 0.5em;
     margin: auto;
+    padding: 0.5em;
     background-color: white;
     max-width: 500px;
     max-height: 800px;
